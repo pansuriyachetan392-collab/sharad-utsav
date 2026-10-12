@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #2c2c2c;
+  --color-primary: #c99b24;
+  --color-gold: #bc9226;
+  --color-bright-gold: #d1ac3e;
+  --color-cream: #fdf3e4;
+  --color-heading: #291900;
+  --color-prose: #645743;
+  --color-success: #28a736;
+  --color-danger: #ef1f1f;
+  --font-sans: var(--font-source), "Segoe UI", sans-serif;
+  --font-serif: var(--font-fraunces), Georgia, "Times New Roman", serif;
+}
+
+body {
+  background: #2c2c2c;
+  color: #ffffff;
+}
+
+::selection {
+  background: #c99b24;
+  color: #291900;
+}
